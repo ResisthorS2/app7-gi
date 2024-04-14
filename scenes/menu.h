@@ -11,9 +11,6 @@
 #include <QMessageBox>
 #include <QVBoxLayout>
 #include <QPushButton>
-#include <QMediaPlayer>
-#include <QAudioOutput>
-#include <QSoundEffect>
 #include <QApplication>
 
 class Menu : public Scene
@@ -92,10 +89,6 @@ public slots:
 
 private:
 	QVBoxLayout* layout;
-
-    QMediaPlayer* player;
-    QMediaPlayer* alt;
-    QAudioOutput* audioOut;
 };
 
 
